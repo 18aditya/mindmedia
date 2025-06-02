@@ -17,11 +17,11 @@ constant/
 ```jsx
 {
 	hero_section:{
-								caption_line1: 'BOUTIQUE HOTEL STEPS FROM',
-								caption_line2: 'SEMINYAK BEACH FRONT',
-								arrival: 'Arrival',
-								departure: 'Departure'
-								}
+			caption_line1: 'BOUTIQUE HOTEL STEPS FROM',
+			caption_line2: 'SEMINYAK BEACH FRONT',
+			arrival: 'Arrival',
+			departure: 'Departure'
+			}
 }
 ```
 

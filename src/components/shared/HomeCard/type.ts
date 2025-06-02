@@ -5,7 +5,7 @@ export interface HomeCardProps {
     link: string;
     description: string;
     isHoveredCard?: boolean;
-    hoveredImage?: string;
+    hoveredImage?: string | undefined | null;
     position: 'left' | 'center-left' | 'center-right' | 'right';
     variant?: 'default' | 'gradient';
   }

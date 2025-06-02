@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ChevronDown, X, Gift, Phone, Mail, ShoppingBag } from "lucide-react";
+import { ChevronDown, X, Phone, Mail, ShoppingBag } from "lucide-react";
 import FollowUs from "../FollowUs/page";
 import { menuItems } from "./constants";
 import useNavBar from "./hook";

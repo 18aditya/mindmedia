@@ -1,8 +1,9 @@
+import type { Swiper } from 'swiper/types';
 import { useState, useRef } from 'react';
 
 export default function useOffers() {
     const [currentSlide, setCurrentSlide] = useState(1);
-    const swiperRef = useRef<any>(null);
+    const swiperRef = useRef<Swiper>(null);
 
     const handlePrev = () => {
         swiperRef.current?.slidePrev();
@@ -12,9 +13,10 @@ export default function useOffers() {
         swiperRef.current?.slideNext();
     };
 
-    const handleSwiper = (swiper: any) => {
+    const handleSwiper = (swiper: Swiper) => {
         swiperRef.current = swiper;
     };
+
 
     return {
         currentSlide,

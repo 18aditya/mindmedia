@@ -105,7 +105,7 @@ const Offers = () => {
                 </Swiper>
             </div>
 
-            <div className="flex justify-center items-center gap-4 mt-4 text-sm text-gray-600">
+            <div className="block sm:hidden flex justify-center items-center gap-4 mt-4 text-sm text-gray-600">
                 <button onClick={handlePrev} className="hover:text-primary-500 transition-colors">
                     <ChevronLeft className="h-5 w-5" />
                 </button>

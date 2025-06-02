@@ -64,7 +64,7 @@ export default function Facilities() {
             >
                 {facilities.map((facility, index) => (
                     <SwiperSlide key={index} className="flex justify-center items-center">
-                        <div className="w-[1020px] h-[573px] justify-center overflow-hidden relative">
+                        <div className="w-full h-[573px] justify-center overflow-hidden relative">
                             <Image
                                 src={facility.image}
                                 alt={facility.title}

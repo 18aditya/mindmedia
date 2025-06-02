@@ -40,14 +40,14 @@ const CTA = () => {
           </div>
           <div className="sm:w-[30%] order-7 sm:order-6">
             <div className="mt-5 sm:mt-0 flex sm:blog justify-center sm:justify-start">
-              <button className="mt-[10px] font-primary text-primary-500 text-[.8rem] lg:text-[.9rem] xl:text-[1rem] bg-white border-[1px] border-[#eee] px-[35px] py-[15px] uppercase rounded-full hover:text-white hover:bg-secondary hover:border-secondary transition-all duration-300" disabled>
+              <button className="mt-[10px] font-primary text-primary-500 text-[.8rem] lg:text-[.9rem] xl:text-[1rem] bg-white border-[1px] border-[#eee] px-[35px] py-[15px] uppercase rounded-full hover:text-white hover:bg-[#A26928] hover:border-[#A26928] transition-all duration-300" disabled>
                 Submit
               </button>
             </div>
           </div>
         </form>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-12">
-          <div className="flex flex-col sm:flex-row gap-10 sm:gap-16">
+        <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 sm:gap-10">
+          <div className="flex flex-col sm:flex-row gap-10 sm:gap-16 max-w-[600px] col-span-full sm:col-start-1 sm:col-end-3">
             <div className="sm:w-[200px]">
               <Image
                 src="/images/logo/logo.avif"
@@ -102,7 +102,7 @@ const CTA = () => {
               </ul>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 col-span-full sm:col-start-3 sm:col-end-6">
             <div className="flex flex-col justify-between">
               <ul className="font-primary font-light">
                 <li className="mb-2 text-center sm:text-left">
@@ -165,26 +165,26 @@ const CTA = () => {
                 className="w-full mt-8 hidden sm:block"
               />
             </div>
-            <div className="flex flex-col justify-between max-w-full md:max-w-[150px]">
-            <div>
-              <a href="https://www.ihg.com/content/us/en/customer-care/bwc-lp" className="uppercase text-white text-center md:text-start font-primary text-light lg:text-[1.6rem] xl:text-[1.6rem] leading-[130%] block" target="_blank">
-                Best Price<br />Guarantee
-              </a>
-              <p className="font-primary text-center md:text-start font-light text-white lg:text-[.8rem] xl:text-[.9rem]">
-                When you book with us
-              </p>
-            </div>
-            <div className="mt-8 sm:mt-10">
-              <p className="font-primary text-center md:text-start text-white lg:text-[.8rem] xl:text-[.9rem] uppercase">
-                Book Online / Call
-              </p>
-              <a href="tel:0018030160061" className="text-secondary text-center md:text-start font-primary font-light text-[1.6rem] lg:text-[1rem] xl:text-[1.2rem] block">
-                001 803 016 0061
-              </a>
+            <div className="flex flex-col justify-between max-w-full md:max-w-[250px]">
+              <div className="w-full">
+                <a href="https://www.ihg.com/content/us/en/customer-care/bwc-lp" className="uppercase text-white text-center md:text-start font-primary text-light lg:text-[1.6rem] xl:text-[1.6rem] leading-[130%] block" target="_blank">
+                  Best Price<br />Guarantee
+                </a>
+                <p className="font-primary text-center md:text-start font-light text-white lg:text-[.8rem] xl:text-[.9rem] w-full">
+                  When you book with us
+                </p>
+              </div>
+              <div className="mt-8 sm:mt-1 w-full ">
+                <p className="font-primary text-center md:text-start text-white lg:text-[.8rem] xl:text-[.9rem] uppercase">
+                  Book Online / Call
+                </p>
+                <a href="tel:0018030160061" className="text-[#A26928] text-center md:text-start font-primary font-light text-[1.6rem] lg:text-[1rem] xl:text-[1.2rem] block">
+                  001 803 016 0061
+                </a>
+              </div>
             </div>
           </div>
-          </div>
-         
+
         </div>
       </div>
     </section>

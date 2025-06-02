@@ -10,7 +10,6 @@ const useFlareBox = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           const progress = entry.intersectionRatio;
-          // Smoother animation by using requestAnimationFrame
           requestAnimationFrame(() => {
             const newScale = 1 + progress;
             setScale(newScale);

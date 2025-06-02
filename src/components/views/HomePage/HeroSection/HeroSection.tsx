@@ -115,12 +115,12 @@ export default function HeroSection() {
       </div>
 
       <div className="absolute h-full w-full left-0 hidden lg:flex font-beausite text-white flex items-end justify-center">
-        <div className='bg-white text-body w-[665px] h-[60px] mb-[20px] flex items-center pl-4 rounded-l-lg rounded-r-xl border-0'>
-          <div className="flex items-center gap-4 flex-1">
+        <div className='bg-white text-body w-[665px] h-[70px] mb-[20px] flex items-center pl-4 rounded-l-lg rounded-r-xl border-0'>
+          <div className="flex items-center flex-1">
             {/* Arrival Date */}
             <Popover open={isArrivalOpen} onOpenChange={setIsArrivalOpen}>
               <PopoverTrigger asChild>
-                <div className='flex flex-col'>
+                <div className='flex flex-col p-[10px]'>
                   <p className='text-black uppercase lg:text-[10px] xl:text-[12px] font-semibold'>Arrival</p>
                   <Button variant="ghost" className="flex items-center gap-2 h-8 px-0 py-0">
                     <div className='flex gap-[25px] items-center'>
@@ -148,7 +148,7 @@ export default function HeroSection() {
             {/* Departure Date */}
             <Popover open={isDepartureOpen} onOpenChange={setIsDepartureOpen}>
               <PopoverTrigger asChild>
-                <div className='flex flex-col'>
+                <div className='flex flex-col p-[10px]'>
                   <p className='text-black uppercase lg:text-[10px] xl:text-[12px] font-semibold'>Departure</p>
                   <Button variant="ghost" className="flex items-center gap-2 h-8 px-0 py-0">
                     <div className='flex gap-[25px] items-center'>
@@ -176,7 +176,7 @@ export default function HeroSection() {
 
             {/* Guests */}
             <Select value={guests} onValueChange={setGuests}>
-              <div className='flex flex-col'>
+              <div className='flex flex-col p-[10px]'>
                 <p className='text-black uppercase lg:text-[10px] xl:text-[12px] font-semibold'>Guest</p>
                 <SelectTrigger className="w-[115px] h-full bg-transparent border-0 px-0 py-0 focus:ring-0 focus:ring-offset-0 focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none">
                   <Button variant="ghost" className="flex items-center gap-2 h-8 px-0 py-0 focus:ring-0 focus:ring-offset-0 focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none">
@@ -197,7 +197,7 @@ export default function HeroSection() {
 
             {/* Rooms */}
             <Select value={rooms} onValueChange={setRooms}>
-              <div className='flex flex-col'>
+              <div className='flex flex-col p-[10px]'>
                 <p className='text-black uppercase lg:text-[10px] xl:text-[12px] font-semibold'>Rooms</p>
                 <SelectTrigger className="w-[115px] h-full bg-transparent border-0 px-0 py-0 focus:ring-0 focus:ring-offset-0 focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none">
                   <Button variant="ghost" className="flex items-center gap-2 h-8 px-0 py-0 focus:ring-0 focus:ring-offset-0 focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none">

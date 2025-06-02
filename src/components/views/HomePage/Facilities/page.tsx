@@ -34,7 +34,7 @@ const facilities = [
 
 export default function Facilities() {
     return (
-        <section className="relative py-20">
+        <section className="hidden md:block relative py-20">
             <FlareBox className="h-[1080px] xl:h-[900px] right-0 "/>
             <div className={cn(`${spacing.container} mb-12 animate-fade-in`)}>
                 <h2 className="uppercase text-3xl md:text-4xl text-gray-900 mb-4 text-primary-500">Facilities</h2>

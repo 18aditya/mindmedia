@@ -14,7 +14,7 @@ export default function BestDealButton() {
           <ShoppingBag className="h-8 w-8 text-white" />
         }
         ariaLabel="Best Deal"
-        className='fixed bottom-10 right-4 z-50 bg-primary-500'
+        className='hidden sm:flex fixed bottom-10 right-4 z-50 bg-primary-500'
         onClick={() => setIsModalOpen(true)}
       />
 

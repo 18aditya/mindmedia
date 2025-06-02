@@ -165,20 +165,20 @@ const CTA = () => {
                 className="w-full mt-8 hidden sm:block"
               />
             </div>
-            <div className="flex flex-col justify-between max-w-[150px]">
+            <div className="flex flex-col justify-between max-w-full md:max-w-[150px]">
             <div>
-              <a href="https://www.ihg.com/content/us/en/customer-care/bwc-lp" className="uppercase text-white font-primary text-light lg:text-[1.6rem] xl:text-[1.6rem] leading-[130%] block" target="_blank">
+              <a href="https://www.ihg.com/content/us/en/customer-care/bwc-lp" className="uppercase text-white text-center md:text-start font-primary text-light lg:text-[1.6rem] xl:text-[1.6rem] leading-[130%] block" target="_blank">
                 Best Price<br />Guarantee
               </a>
-              <p className="font-primary font-light text-white lg:text-[.8rem] xl:text-[.9rem]">
+              <p className="font-primary text-center md:text-start font-light text-white lg:text-[.8rem] xl:text-[.9rem]">
                 When you book with us
               </p>
             </div>
             <div className="mt-8 sm:mt-10">
-              <p className="font-primary text-white lg:text-[.8rem] xl:text-[.9rem] uppercase">
+              <p className="font-primary text-center md:text-start text-white lg:text-[.8rem] xl:text-[.9rem] uppercase">
                 Book Online / Call
               </p>
-              <a href="tel:0018030160061" className="text-secondary font-primary font-light text-[1.6rem] lg:text-[1rem] xl:text-[1.2rem] block">
+              <a href="tel:0018030160061" className="text-secondary text-center md:text-start font-primary font-light text-[1.6rem] lg:text-[1rem] xl:text-[1.2rem] block">
                 001 803 016 0061
               </a>
             </div>

@@ -13,7 +13,7 @@ const FlareBox = ({ className = " left-0" }: FlareBoxProps) => {
         <div 
             ref={containerRef}
             id={`flareBox-${id}`}
-            className={cn(`absolute bottom-0 w-[150px] block bg-primary-500 transition-all duration-1000 ease-in-out transform ${isRight ? 'origin-right' : 'origin-left'} ${className}`)}
+            className={cn(`hidden lg:block absolute  bottom-0 w-[150px] bg-primary-500 transition-all duration-1000 ease-in-out transform ${isRight ? 'origin-right' : 'origin-left'} ${className}`)}
             style={{ transform: `scaleX(${scale})` }}
         />
     );

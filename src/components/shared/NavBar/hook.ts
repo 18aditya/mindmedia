@@ -6,6 +6,7 @@ const useNavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [openAccordion, setOpenAccordion] = useState<string | null>(null);
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const toggleAccordion = (title: string) => {
         setOpenAccordion(openAccordion === title ? null : title);
@@ -41,7 +42,9 @@ const useNavBar = () => {
         setIsOpen,
         toggleAccordion,
         openAccordion,
-        isScrolled
+        isScrolled,
+        isModalOpen, 
+        setIsModalOpen
     };
 };
 

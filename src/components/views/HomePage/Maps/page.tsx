@@ -5,7 +5,7 @@ import Image from "next/image";
 const Maps = () => {
     return (
         <section className="bg-primary-500 py-14 my-14 ">
-            <div className="container mx-auto">
+            <div className="container mx-auto px-4">
                 <div className="flex flex-col sm:flex-row gap-[40px] sm:gap-[80px] max-w-[1024px] mx-auto">
                     <div className="sm:w-[50%]">
                         <Image

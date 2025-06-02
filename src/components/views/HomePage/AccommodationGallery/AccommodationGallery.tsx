@@ -1,5 +1,5 @@
 'use client'
-import HomeCard from './HomeCard/HomeCard';
+import HomeCard from '../../../shared/HomeCard/page';
 import { spacing } from '@/lib/constants';
 import useAccommodationGallery from './hook';
 import { ChevronLeft, ChevronRight } from 'lucide-react';

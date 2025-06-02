@@ -33,9 +33,6 @@ const Review = () => {
         >
           Explore
         </a>
-        <p className="text-body text-primary-500 text-[.9rem] text-center sm:text-left">
-          Let&apos;s explore the beauty of Bali together
-        </p>
       </div>
     </section>
   );

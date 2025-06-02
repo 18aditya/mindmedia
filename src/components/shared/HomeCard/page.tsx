@@ -13,10 +13,40 @@ export default function HomeCard(props: HomeCardProps) {
     description,
     isHoveredCard,
     hoveredImage,
+    variant = 'default'
   } = props;
   
   const { getImagePosition } = useHomeCard(props)
   
+  if (variant === 'gradient') {
+    return (
+      <div className="swiper-slide border border-[#d8d8d8] relative">
+        <div className="aspect-[.7] w-full overflow-hidden">
+          <Image
+            src={imageUrl}
+            alt={`${title} - Hotel Indigo Bali Seminyak Beach`}
+            width={2000}
+            height={800}
+            className="h-full w-full object-cover object-center"
+            loading="lazy"
+          />
+        </div>
+        <div className="py-[20px] px-[15px] h-full flex flex-col justify-end absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
+          <p className="font-primary font-medium uppercase text-white leading-[120%] mb-2">{title}</p>
+          <p className="font-primary font-medium text-[.8rem] text-white leading-[120%]">{description}</p>
+          <div>
+            <Link
+              href={link}
+              className="bg-primary-500 text-white text-[.7rem] sm:text-[.9rem] px-[25px] py-[10px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[10px] transform hover:bg-secondary hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
+            >
+              Explore
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <Link
       href={link}
@@ -43,7 +73,6 @@ export default function HomeCard(props: HomeCardProps) {
           <div className="h-[2px] w-0 group-hover:w-12 bg-white transition-all duration-500" />
         </div>
       </div>
-     
     </Link>
   );
 } 

@@ -7,7 +7,7 @@ const Information = () => {
         <section className="container mx-auto hidden sm:flex items-center mt-[40px] sm:mt-[8rem]">
             <div className="w-[50%] sm:w-[25%] h-[40vh] sm:h-[73vh] md:h-[50vh] lg:h-[73vh] overflow-hidden hidden sm:block">
                 <Image
-                    src="/images/Information/photo1.avif"
+                    src="/images/information/photo1.avif"
                     alt="Hotel Interior"
                     width={1280}
                     height={720}
@@ -16,7 +16,7 @@ const Information = () => {
             </div>
             <div className="parallaxContainer w-[60%] sm:w-[25%] h-[40vh] sm:h-[73vh] overflow-hidden block sm:hidden">
                 <Image
-                    src="/images/Information/photo1.avif"
+                    src="/images/information/photo1.avif"
                     alt="Hotel Interior"
                     width={1280}
                     height={720}
@@ -39,7 +39,7 @@ const Information = () => {
             </div>
             <div className="w-[50%] md:h-[50vh] lg:h-[73vh] overflow-hidden hidden sm:block">
                 <Image
-                    src="/images/Information/photo2.avif"
+                    src="/images/information/photo2.avif"
                     alt="Hotel Interior"
                     width={1280}
                     height={720}

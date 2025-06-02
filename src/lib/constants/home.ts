@@ -11,22 +11,3 @@ export const HOME_PAGE_CONSTANTS = {
     }
   }
 };
-
-export const trendingContent: ContentItem[] = [
-  {
-    "id": "tc1",
-    "title": "Social Media Trends 2024",
-    "description": "The most impactful social media trends this year",
-    "imageUrl": "/images/trending-1.jpg",
-    "category": "Social Media",
-    "readTime": "4 min read"
-  },
-  {
-    "id": "tc2",
-    "title": "Content Creation Tips",
-    "description": "Expert tips for creating engaging content",
-    "imageUrl": "/images/trending-2.jpg",
-    "category": "Tips & Tricks",
-    "readTime": "6 min read"
-  }
-]; 

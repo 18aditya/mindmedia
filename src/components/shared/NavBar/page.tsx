@@ -26,8 +26,9 @@ const NavBar = () => {
 
     return (
         <>
-            <header className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between h-[8vh] md:h-[8vh] lg:h-[10vh] px-5 py-[20px] transition-all duration-300 ease-in-out ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
-                }`}>
+            <header className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between h-[8vh] md:h-[8vh] lg:h-[10vh] px-5 py-[20px] transition-all duration-300 ease-in-out ${
+                isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
+            }`}>
                 <div>
                     <a href="/en">
                         <Image
@@ -35,38 +36,40 @@ const NavBar = () => {
                             alt="Hotel Indigo Seminyak Logo"
                             width={80}
                             height={54}
-                            className={`brandM w-[80px] brand filter transition-all duration-300 ease-in-out ${isScrolled ? '' : 'invert brightness-0'
-                                }`}
+                            className={`brandM w-[80px] brand filter transition-all duration-300 ease-in-out ${
+                                isScrolled ? '' : 'invert brightness-0'
+                            }`}
                         />
                     </a>
                 </div>
-                <div className={`font-primary font-light flex items-center h-full transition-colors duration-300 ease-in-out ${isScrolled ? 'text-primary-500' : 'text-white'
-                    }`}>
+                <div className={`font-primary font-light flex items-center h-full transition-colors duration-300 ease-in-out ${
+                    isScrolled ? 'text-primary-500' : 'text-white'
+                }`}>
                     <div className="relative mr-3">
-                        <button 
+                        <div 
                             onClick={() => setIsLangOpen(!isLangOpen)}
-                            className={`relative uppercase after:content-[''] after:absolute after:block after:left-0 after:-top-[6px] after:h-[2px] after:w-0 after:transition-all after:duration-300 after:ease-in-out hover:after:w-[30px] flex items-center group rotate-0 ${
+                            className={`relative uppercase after:content-[''] after:absolute after:block after:left-0 after:-top-[6px] after:h-[2px] after:w-0 after:transition-all after:duration-300 after:ease-in-out hover:after:w-[30px] flex items-center group rotate-0 cursor-pointer ${
                                 isScrolled ? 'after:bg-primary-500' : 'after:bg-white'
                             }`}
                         >
                             {selectedLang}
                             <ChevronDown className={`w-2.5 h-2.5 ms-3 transition-transform duration-300 ${isLangOpen ? 'rotate-180' : ''}`} />
-                        </button>
+                        </div>
                         {isLangOpen && (
                             <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-md py-2 min-w-[150px] z-50">
                                 {languages.map((lang) => (
-                                    <button
+                                    <div
                                         key={lang.code}
                                         onClick={() => {
                                             setSelectedLang(lang.code);
                                             setIsLangOpen(false);
                                         }}
-                                        className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors duration-200 ${
+                                        className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors duration-200 cursor-pointer ${
                                             selectedLang === lang.code ? 'text-primary-500' : 'text-gray-700'
                                         }`}
                                     >
                                         {lang.name}
-                                    </button>
+                                    </div>
                                 ))}
                             </div>
                         )}
@@ -76,19 +79,23 @@ const NavBar = () => {
                         className="focus:ring-0 uppercase flex justify-center flex-col items-end gap-[2px] text-[.8rem] h-[35px] group transition-all duration-300"
                     >
                         Menu
-                        <span className={`line !block h-[1px] w-full mb-[3px] group-hover:w-[70%] transition-all duration-300 ease-in-out ${isScrolled ? 'bg-primary-500' : 'bg-white'
-                            }`}></span>
-                        <span className={`line !block h-[1px] w-full mb-[3px] transition-all duration-300 ease-in-out ${isScrolled ? 'bg-primary-500' : 'bg-white'
-                            }`}></span>
-                        <span className={`line !block h-[1px] w-[50%] transition-all duration-300 ease-in-out ${isScrolled ? 'bg-primary-500' : 'bg-white'
-                            }`}></span>
+                        <span className={`line !block h-[1px] w-full mb-[3px] group-hover:w-[70%] transition-all duration-300 ease-in-out ${
+                            isScrolled ? 'bg-primary-500' : 'bg-white'
+                        }`}></span>
+                        <span className={`line !block h-[1px] w-full mb-[3px] transition-all duration-300 ease-in-out ${
+                            isScrolled ? 'bg-primary-500' : 'bg-white'
+                        }`}></span>
+                        <span className={`line !block h-[1px] w-[50%] transition-all duration-300 ease-in-out ${
+                            isScrolled ? 'bg-primary-500' : 'bg-white'
+                        }`}></span>
                     </button>
                     <a
                         target="_blank"
-                        className={`uppercase ml-[10px] text-[.7rem] h-full px-5 md:flex items-center justify-center border-[1px] transition-all duration-300 ease-in-out hover:bg-secondary hover:border-secondary hover:text-white ${isScrolled
-                            ? 'text-white bg-primary-500 border-primary-500'
-                            : 'text-white border-white bg-transparent'
-                            }`}
+                        className={`uppercase ml-[10px] text-[.7rem] h-full px-5 md:flex items-center justify-center border-[1px] transition-all duration-300 ease-in-out hover:bg-secondary hover:border-secondary hover:text-white ${
+                            isScrolled 
+                                ? 'text-white bg-primary-500 border-primary-500' 
+                                : 'text-white border-white bg-transparent'
+                        }`}
                         href="https://www.hotelindigo.com/redirect?path=asearch&brandCode=IN&localeCode=en&regionCode=1&hotelCode=DPSIN&PMID=99502222&&icdv=99502222"
                     >
                         Book Now

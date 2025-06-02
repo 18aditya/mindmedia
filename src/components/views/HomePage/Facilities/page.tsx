@@ -45,24 +45,26 @@ export default function Facilities() {
                     prevEl: ".prev-facility",
                     nextEl: ".next-facility",
                 }}
-                slidesPerView={1.5}
+                slidesPerView={1.4}
                 centeredSlides={true}
                 spaceBetween={20}
                 breakpoints={{
                     768: {
-                        slidesPerView: 1.5,
+                        slidesPerView: 1,
                         centeredSlides: true,
+                        spaceBetween:20
                     },
                     1024: {
-                        slidesPerView: 1.5,
+                        slidesPerView: 1,
                         centeredSlides: true,
+                        spaceBetween:20
                     },
                 }}
                 className="mySwiperHomeActivities"
             >
                 {facilities.map((facility, index) => (
                     <SwiperSlide key={index} className="flex justify-center items-center">
-                        <div className="w-[820px] h-[461px] overflow-hidden relative">
+                        <div className="w-[1020px] h-[573px] justify-center overflow-hidden relative">
                             <Image
                                 src={facility.image}
                                 alt={facility.title}

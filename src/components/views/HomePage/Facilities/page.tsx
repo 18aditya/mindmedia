@@ -9,6 +9,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { spacing } from "@/lib/constants";
 import FlareBox from "@/components/shared/FlareBox";
+import Image from "next/image";
 
 const facilities = [
     {
@@ -62,9 +63,11 @@ export default function Facilities() {
                 {facilities.map((facility, index) => (
                     <SwiperSlide key={index} className="flex justify-center items-center">
                         <div className="w-[820px] h-[461px] overflow-hidden relative">
-                            <img
+                            <Image
                                 src={facility.image}
                                 alt={facility.title}
+                                width={1280}
+                                height={720}
                                 className="w-full h-full object-cover object-center"
                             />
                             <div className="relative sm:absolute bottom-0 left-0 w-full py-[30px] sm:px-[50px] font-primary font-light sm:bg-gradient-bottom md:h-[90%] lg:h-[50%] sm:flex flex-col justify-end">

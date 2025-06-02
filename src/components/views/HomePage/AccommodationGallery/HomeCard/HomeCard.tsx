@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import useHomeCard from './hook';
+import { HomeCardProps } from './type';
 
 export default function HomeCard(props: HomeCardProps) {
   const {

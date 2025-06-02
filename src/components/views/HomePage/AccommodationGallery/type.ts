@@ -1,4 +1,4 @@
-interface AccommodationItem {
+export interface AccommodationItem {
     id: string;
     title: string;
     imageUrl: string;

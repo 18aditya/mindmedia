@@ -1,3 +1,5 @@
+import { HomeCardProps } from "./type";
+
 const useHomeCard = (props: HomeCardProps) => {
 
     const {

@@ -1,8 +1,6 @@
-interface ContentItem {
-    id: string;
+export type PartnerItem = {
+    id: number;
     title: string;
     description: string;
-    imageUrl: string;
-    category: string;
-    readTime: string;
-  }
+    image: string;
+};

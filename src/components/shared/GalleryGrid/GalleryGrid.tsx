@@ -2,6 +2,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 import { Card } from "./type";
+import Image from "next/image";
 
 export const GalleryGrid = ({ cards }: { cards: Card[] }) => {
   return (
@@ -32,10 +33,10 @@ export const GalleryGrid = ({ cards }: { cards: Card[] }) => {
 
 const ImageComponent = ({ card }: { card: Card }) => {
   return (
-    <img
+    <Image
       src={card.thumbnail}
-      height="500"
-      width="500"
+      height={500}
+      width={500}
       className={cn(
         "object-cover object-top absolute inset-0 h-full w-full"
       )}

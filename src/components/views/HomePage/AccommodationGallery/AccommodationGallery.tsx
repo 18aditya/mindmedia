@@ -1,5 +1,4 @@
 'use client'
-import { useState, useRef } from 'react';
 import HomeCard from './HomeCard/HomeCard';
 import { spacing } from '@/lib/constants';
 import useAccommodationGallery from './hook';
@@ -48,7 +47,7 @@ export default function AccommodationGallery() {
                 className="flex transition-transform duration-300 ease-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
               >
-                {accommodations.map((item, index) => (
+                {accommodations.map((item) => (
                   <div key={item.id} className="w-full flex-shrink-0">
                     <a
                       href={item.link}

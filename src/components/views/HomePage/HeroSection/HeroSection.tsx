@@ -16,6 +16,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { format } from "date-fns";
 import { useState } from "react";
+import Image from 'next/image';
 
 export default function HeroSection() {
   const {
@@ -59,7 +60,7 @@ export default function HeroSection() {
             id='heroImage'
             className="absolute w-[120%] h-[120%] animate-slide-x"
           >
-            <img
+            <Image
               src="/images/accommodation/banner.webp"
               alt="Hotel Indigo Bali Seminyak"
               className="absolute w-full h-full object-cover scale-110"

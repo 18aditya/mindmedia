@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { spacing } from '@/lib/constants';
-import FlareBox from "@/components/shared/FlareBox/page";
 
 const partners = [
     { name: "Six Senses", url: "https://www.sixsenses.com/en", image: "/images/partners/six-senses.webp" },

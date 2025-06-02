@@ -29,7 +29,7 @@ export default function AboutUs() {
             About Us & Our Neighborhood
           </h2>
           <p className="mt-[20px] text-primary-500 font-light text-[.9rem] text-body text-center lg:text-left">
-            Hotel Indigo Bali Seminyak Beach is situated in the heart of one of Bali's most vibrant districts, a place where centuries of tradition and culture blend seamlessly with an atmosphere of casual sophistication.
+            Hotel Indigo Bali Seminyak Beach is situated in the heart of one of Bali&apos;s most vibrant districts, a place where centuries of tradition and culture blend seamlessly with an atmosphere of casual sophistication.
           </p>
           <div className="mt-[20px] flex md:flex justify-center lg:inline-block">
             <a 
@@ -39,6 +39,9 @@ export default function AboutUs() {
               Explore
             </a>
           </div>
+          <p className="text-body text-primary-500 text-[.9rem] text-center sm:text-left">
+            Let&apos;s explore the beauty of Bali together
+          </p>
         </div>
       </div>
     </section>

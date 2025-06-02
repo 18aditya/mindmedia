@@ -5,6 +5,7 @@ const useFlareBox = () => {
   const [scale, setScale] = useState(1);
 
   useEffect(() => {
+    const currentRef = containerRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -22,13 +23,13 @@ const useFlareBox = () => {
       }
     );
 
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);

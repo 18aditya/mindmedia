@@ -5,8 +5,7 @@ export const galleryCards = [
         Dinner
       </p>,
       className: "col-span-2",
-      thumbnail:
-        "/images/events/main-dining.png",
+      thumbnail: "/images/events/main-dining.png",
     },
     {
       id: 2,
@@ -14,8 +13,7 @@ export const galleryCards = [
         Wedding
       </p>,
       className: "col-span-1",
-      thumbnail:
-        "/images/events/main-wedding.png",
+      thumbnail: "/images/events/main-wedding.png",
     },
     {
       id: 3,
@@ -23,8 +21,7 @@ export const galleryCards = [
         Events
       </p>,
       className: "col-span-1",
-      thumbnail:
-        "/images/events/main-events.png",
+      thumbnail: "/images/events/main-events.png",
     },
     {
       id: 4,
@@ -32,7 +29,6 @@ export const galleryCards = [
         Dinner
       </p>,
       className: "col-span-2",
-      thumbnail:
-        "/images/facilities/spa.webp",
+      thumbnail: "/images/events/main-dining.png",
     },
-  ];
+];

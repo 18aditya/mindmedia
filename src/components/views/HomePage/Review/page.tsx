@@ -7,7 +7,7 @@ const Review = () => {
     <section className={spacing.section}>
       <div className={spacing.container}>
         <p className="text-primary-500 font-primary font-[400] sm:font-light text-[1.5rem] sm:text-[2.2rem] lg:text-[2.2rem] xl:text-[2.8rem] w-full sm:w-[600px]">
-          YOU DON'T HAVE TO TAKE OUR WORD FOR IT
+          YOU DON&apos;T HAVE TO TAKE OUR WORD FOR IT
         </p>
         <div className="my-[20px] sm:my-[40px] flex items-center gap-[10px]">
           <ul className="flex items-center gap-[5px]">
@@ -33,6 +33,9 @@ const Review = () => {
         >
           Explore
         </a>
+        <p className="text-body text-primary-500 text-[.9rem] text-center sm:text-left">
+          Let&apos;s explore the beauty of Bali together
+        </p>
       </div>
     </section>
   );

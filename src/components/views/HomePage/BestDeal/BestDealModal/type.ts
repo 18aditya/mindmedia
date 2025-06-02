@@ -1,4 +1,4 @@
-interface BestDealModalProps {
+export interface BestDealModalProps {
     isOpen: boolean;
     onClose: () => void;
     title?: string;
@@ -6,7 +6,7 @@ interface BestDealModalProps {
     className?: string;
   }
   
-interface useBestDealModalProps {
+export interface useBestDealModalProps {
   isOpen: boolean;
 }
   

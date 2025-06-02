@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import homeData from '@/data/home.json';
+import { AccommodationItem } from "./type";
 
 const useAccommodationGallery = () => {
     const [hoveredId, setHoveredId] = useState<string | null>(null);

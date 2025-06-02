@@ -1,4 +1,4 @@
-interface ModalProps {
+export interface ModalProps {
     children: React.ReactNode;
 }
   

@@ -1,4 +1,4 @@
-interface HomeCardProps {
+export interface HomeCardProps {
     id: string;
     title: string;
     imageUrl: string;

@@ -1,5 +1,3 @@
-import { ContentItem } from '../types/content';
-
 export const HOME_PAGE_CONSTANTS = {
   typography: {
     heading: {

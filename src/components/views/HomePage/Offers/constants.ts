@@ -1,3 +1,5 @@
+import { CardContent } from "./type";
+
 export const cardContent: CardContent[] = [
     {
         thumbnail:'/images/offers/summer_in_bali.webp',

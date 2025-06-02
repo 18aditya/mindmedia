@@ -2,6 +2,7 @@
 import { X } from 'lucide-react';
 import useBestDealModal from './hook';
 import Modal from '@/components/shared/Modal';
+import { BestDealModalProps } from './type';
 
 export default function BestDealModal(props: BestDealModalProps) {
   const { isOpen } = useBestDealModal(props);

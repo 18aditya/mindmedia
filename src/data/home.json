@@ -1,0 +1,68 @@
+{
+  "featuredContent": [
+    {
+      "id": "fc1",
+      "title": "The Future of Digital Media",
+      "description": "Exploring the latest trends in digital media consumption",
+      "imageUrl": "/images/featured-1.jpg",
+      "category": "Technology",
+      "readTime": "5 min read"
+    },
+    {
+      "id": "fc2",
+      "title": "Creative Storytelling",
+      "description": "How to craft compelling narratives in the digital age",
+      "imageUrl": "/images/featured-2.jpg",
+      "category": "Creativity",
+      "readTime": "7 min read"
+    }
+  ],
+  "trendingContent": [
+    {
+      "id": "tc1",
+      "title": "Social Media Trends 2024",
+      "description": "The most impactful social media trends this year",
+      "imageUrl": "/images/trending-1.jpg",
+      "category": "Social Media",
+      "readTime": "4 min read"
+    },
+    {
+      "id": "tc2",
+      "title": "Content Creation Tips",
+      "description": "Expert tips for creating engaging content",
+      "imageUrl": "/images/trending-2.jpg",
+      "category": "Tips & Tricks",
+      "readTime": "6 min read"
+    }
+  ],
+  "accommodations": [
+    {
+        "id": "rooms",
+        "title": "Deluxe Rooms",
+        "imageUrl": "/images/accommodation/rooms.webp",
+        "link": "/accommodation/rooms",
+        "description": "Spacious rooms with modern amenities"
+    },
+    {
+        "id": "suites",
+        "title": "Executive Suites",
+        "imageUrl": "/images/accommodation/suite.webp",
+        "link": "/accommodation/suites",
+        "description": "Luxurious suites with ocean views"
+    },
+    {
+        "id": "one-bedroom",
+        "title": "One Bedroom Villa",
+        "imageUrl": "/images/accommodation/one-bedroom.webp",
+        "link": "/accommodation/one-bedroom-villa",
+        "description": "Private villa with personal pool"
+    },
+    {
+        "id": "two-bedroom",
+        "title": "Two Bedroom Villa",
+        "imageUrl": "/images/accommodation/two-bedroom.webp",
+        "link": "/accommodation/two-bedroom-villa",
+        "description": "Perfect for families and groups"
+    }
+  ]
+} 

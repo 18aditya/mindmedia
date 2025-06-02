@@ -29,7 +29,7 @@ const Review = () => {
         <a
           href="https://www.ihg.com/hotelindigo/redirect?path=hd-hotel-reviews&brandCode=in&hotelCode=dpsin&regionCode=1&localeCode=en&cm_mmc=iws_widget_DPSIN&icdv=99502222&dp=true"
           target="_blank"
-          className="bg-primary-500 text-white lg:text-[.8rem] xl:text-[.9rem] px-[35px] py-[15px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[20px] transform hover:bg-secondary hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
+          className="bg-primary-500 text-white lg:text-[.8rem] xl:text-[.9rem] px-[35px] py-[15px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[20px] transform hover:bg-[#A26928] hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
         >
           Explore
         </a>

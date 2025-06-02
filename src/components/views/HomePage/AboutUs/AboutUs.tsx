@@ -34,7 +34,7 @@ export default function AboutUs() {
           <div className="mt-[20px] flex md:flex justify-center lg:inline-block">
             <a 
               href="/about-us"
-              className="bg-primary-500 text-white text-[.7rem] px-[25px] py-[10px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[20px] transform hover:bg-secondary hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
+              className="bg-primary-500 text-white text-[.7rem] px-[25px] py-[10px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[20px] transform hover:bg-[#A26928] hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
             >
               Explore
             </a>

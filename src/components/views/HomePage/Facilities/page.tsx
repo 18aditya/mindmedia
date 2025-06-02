@@ -50,12 +50,12 @@ export default function Facilities() {
                 spaceBetween={20}
                 breakpoints={{
                     768: {
-                        slidesPerView: 1,
+                        slidesPerView: 1.4,
                         centeredSlides: true,
                         spaceBetween:20
                     },
                     1024: {
-                        slidesPerView: 1,
+                        slidesPerView: 1.4,
                         centeredSlides: true,
                         spaceBetween:20
                     },

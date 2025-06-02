@@ -86,7 +86,7 @@ const Offers = () => {
                                     <p className="text-body mt-[20px] text-primary-500 text-[.9rem] text-center lg:text-left">{dt.description}</p>
                                     <div className="mt-[5px] sm:mt-[20px] flex justify-center items-center w-full lg:block">
                                         <a
-                                            className="bg-primary-500 text-white text-[.7rem] sm:text-[.9rem] px-[25px] py-[10px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[20px] md:mt-0 lg:mt-[20px] transform hover:bg-secondary hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
+                                            className="bg-primary-500 text-white text-[.7rem] sm:text-[.9rem] px-[25px] py-[10px] rounded-full uppercase transition duration-300 ease-in-out inline-block mt-[20px] md:mt-0 lg:mt-[20px] transform hover:bg-[#A26928] hover:shadow-[0px_0px_52px_18px_rgba(0,_0,_0,_0.1)] hover:-translate-y-1"
                                             href="/en/dining"
                                         >
                                             View All
